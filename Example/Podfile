@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ECMaterialDesign_Example', :exclusive => true do
+  pod "ECMaterialDesign", :path => "../"
+end
+
+target 'ECMaterialDesign_Tests', :exclusive => true do
+  pod "ECMaterialDesign", :path => "../"
+
+  
+end
