@@ -1,0 +1,25 @@
+{
+  "name": "ECMaterialDesign",
+  "version": "0.1.0",
+  "summary": "A short description of ECMaterialDesign.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ECMaterialDesign",
+  "license": "MIT",
+  "authors": {
+    "Eleven Chen": "skyhacker@126.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ECMaterialDesign.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "ECMaterialDesign": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module ECMaterialDesign {
+  umbrella header "ECMaterialDesign-umbrella.h"
+
+  export *
+  module * { export * }
+}

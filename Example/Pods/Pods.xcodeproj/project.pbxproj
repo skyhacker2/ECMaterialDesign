@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		320FB9304668DAFCFD63423AD87DBB75 /* UIView+Material.h in Headers */ = {isa = PBXBuildFile; fileRef = 064C127FA76641CC42753A8492EA96F1 /* UIView+Material.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38493D0AFA878BE9B5B880832969F4B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D674D521A19B53E0A751747B758B91C2 /* Foundation.framework */; };
+		3ADEB809076C6B5B14E34E7A72E36FAA /* ECMaterial.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C19FC56EB31A40200C48D100548B2F3 /* ECMaterial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4138A6BE011341E4B479DEE85F5AAF8E /* ECMaterialDesign-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E73BB3EC21947A769EBBDC0FDF776C95 /* ECMaterialDesign-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4543C907C3A9227C318A083CC2896B93 /* Pods-ECMaterialDesign_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0BD8359D41AF67F3F3A3BC8BB409C1 /* Pods-ECMaterialDesign_Tests-dummy.m */; };
+		575C61B657C3B1CDD51A53F1E3D194DC /* ECMaterialDesign-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F19BA2038ADB0DC0EDE639C76CC728 /* ECMaterialDesign-dummy.m */; };
+		5D1EE08FD7A3C93C00ABE4BB8F9F24D2 /* Pods-ECMaterialDesign_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 791CFE3587A8727D451316D48A5AD2F1 /* Pods-ECMaterialDesign_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		655B0C83EB81C9E4AC2E5F4983E1C3AD /* ECMaterialDesign.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3CB99EF32C7EC4ACF607E5A9A41C58D0 /* ECMaterialDesign.bundle */; };
+		68E7B669AC5709D3E0B75BC433F903FF /* Pods-ECMaterialDesign_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C4E0604FEC69CDA7C102020C126BC5E /* Pods-ECMaterialDesign_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		746AB09FB9CF5202078A3AA61BA822AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D674D521A19B53E0A751747B758B91C2 /* Foundation.framework */; };
+		D4D83FAE9E353316952E0A3E34CADCDC /* UIView+Material.m in Sources */ = {isa = PBXBuildFile; fileRef = 704AFCC90D4D6C6BC67F856543C7936D /* UIView+Material.m */; };
+		EF10AEC29C38A5B19639E99151870516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D674D521A19B53E0A751747B758B91C2 /* Foundation.framework */; };
+		FA509E673F8843EC2FD2ADC1AAFAE90B /* Pods-ECMaterialDesign_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D61912EFF149F4B3FD4F3B6A017BB5B /* Pods-ECMaterialDesign_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11D15AC5C7EA05B3C15D939C4DCEC875 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80326DAC2EDD80E39F94436C11FDF4F8;
+			remoteInfo = ECMaterialDesign;
+		};
+		32AC1ADB5E7B0E62D8B6DBD5C5EB45D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E76B620D13E7BF0CCAED5852799297D;
+			remoteInfo = "ECMaterialDesign-ECMaterialDesign";
+		};
+		A0D7403046631DCA1F0EDBF6966A8560 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80326DAC2EDD80E39F94436C11FDF4F8;
+			remoteInfo = ECMaterialDesign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064C127FA76641CC42753A8492EA96F1 /* UIView+Material.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Material.h"; sourceTree = "<group>"; };
+		103041FE1F3F273D902977FB2CB22D20 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19442AF619922822E89C8979987D9EF4 /* Pods-ECMaterialDesign_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECMaterialDesign_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2D135F2C36437EBE32BF6FFDFD45DE90 /* Pods-ECMaterialDesign_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECMaterialDesign_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2D61912EFF149F4B3FD4F3B6A017BB5B /* Pods-ECMaterialDesign_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECMaterialDesign_Example-dummy.m"; sourceTree = "<group>"; };
+		3CB99EF32C7EC4ACF607E5A9A41C58D0 /* ECMaterialDesign.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ECMaterialDesign.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8918561C792EBAA06EF00F5DC6D6D3 /* Pods-ECMaterialDesign_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECMaterialDesign_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3EAE2EF5FA71E62A4ECC1F4C5C8B3D9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40175D221C38954500C514C64432509A /* Pods-ECMaterialDesign_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECMaterialDesign_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42259F80BF772EEA4976164159F5A7B6 /* Pods-ECMaterialDesign_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ECMaterialDesign_Example.modulemap"; sourceTree = "<group>"; };
+		4C0BD8359D41AF67F3F3A3BC8BB409C1 /* Pods-ECMaterialDesign_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ECMaterialDesign_Tests-dummy.m"; sourceTree = "<group>"; };
+		4CDBEDE161D3E1C531FA4FD9DBCD8FFA /* Pods-ECMaterialDesign_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ECMaterialDesign_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F83A7AD4FC059A202C8EA86C3696087 /* Pods-ECMaterialDesign_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECMaterialDesign_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		50E5845077D1378909812DE25F8CFB6F /* Pods_ECMaterialDesign_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECMaterialDesign_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F19BA2038ADB0DC0EDE639C76CC728 /* ECMaterialDesign-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ECMaterialDesign-dummy.m"; sourceTree = "<group>"; };
+		5ABB8EE1EA1A0EE3EE25ED0A574A3E85 /* Pods_ECMaterialDesign_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ECMaterialDesign_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6403364F157A2C0B2B67B85CE81E5294 /* Pods-ECMaterialDesign_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECMaterialDesign_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6C4E0604FEC69CDA7C102020C126BC5E /* Pods-ECMaterialDesign_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECMaterialDesign_Example-umbrella.h"; sourceTree = "<group>"; };
+		704AFCC90D4D6C6BC67F856543C7936D /* UIView+Material.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Material.m"; sourceTree = "<group>"; };
+		791CFE3587A8727D451316D48A5AD2F1 /* Pods-ECMaterialDesign_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ECMaterialDesign_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7B79A8CD35DA55AA5CA62413D33DA8E4 /* Pods-ECMaterialDesign_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECMaterialDesign_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C19FC56EB31A40200C48D100548B2F3 /* ECMaterial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ECMaterial.h; sourceTree = "<group>"; };
+		7CADE3643EAB3C0880907662F943A456 /* ECMaterialDesign.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ECMaterialDesign.modulemap; sourceTree = "<group>"; };
+		B37C4BD2D4315A5CAF505360AA78A3B7 /* ECMaterialDesign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ECMaterialDesign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70AFF48EEB08DB52251454740AEA5BD /* ECMaterialDesign-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECMaterialDesign-prefix.pch"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CDDFD227BAACF417152F8921A27173AE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD74B13E86B4B117D590600BEEDE7B2 /* ECMaterialDesign.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ECMaterialDesign.xcconfig; sourceTree = "<group>"; };
+		D1214CCAB232590C51984A5F806E420A /* Pods-ECMaterialDesign_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ECMaterialDesign_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D674D521A19B53E0A751747B758B91C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E247D63520337C830D5E127D5F90F3EF /* ECMaterialDesign-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ECMaterialDesign-Private.xcconfig"; sourceTree = "<group>"; };
+		E313DD52436B7B452F3672995984DB02 /* Pods-ECMaterialDesign_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECMaterialDesign_Tests-resources.sh"; sourceTree = "<group>"; };
+		E73BB3EC21947A769EBBDC0FDF776C95 /* ECMaterialDesign-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ECMaterialDesign-umbrella.h"; sourceTree = "<group>"; };
+		EB9BA587AC3E0BE7FE383FA4E8692ADB /* Pods-ECMaterialDesign_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ECMaterialDesign_Example-resources.sh"; sourceTree = "<group>"; };
+		FA60DF0CB340B18ADD69167E724CE158 /* Pods-ECMaterialDesign_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ECMaterialDesign_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEC24F25296B545340DA184579F5257A /* Pods-ECMaterialDesign_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ECMaterialDesign_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AA9F2668D4F271C74B26E024D038779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38493D0AFA878BE9B5B880832969F4B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FAFD7481AA781A56B005E8667F7B941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF10AEC29C38A5B19639E99151870516 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAB54AAD143A9CAB2D1EB250EE00C632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746AB09FB9CF5202078A3AA61BA822AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC40F5BEA7B2914359039B2AAA99D677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D674D521A19B53E0A751747B758B91C2 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5761DACC32E2C753A5782436C9292A9B /* Pods-ECMaterialDesign_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3EAE2EF5FA71E62A4ECC1F4C5C8B3D9A /* Info.plist */,
+				FEC24F25296B545340DA184579F5257A /* Pods-ECMaterialDesign_Tests.modulemap */,
+				40175D221C38954500C514C64432509A /* Pods-ECMaterialDesign_Tests-acknowledgements.markdown */,
+				7B79A8CD35DA55AA5CA62413D33DA8E4 /* Pods-ECMaterialDesign_Tests-acknowledgements.plist */,
+				4C0BD8359D41AF67F3F3A3BC8BB409C1 /* Pods-ECMaterialDesign_Tests-dummy.m */,
+				4F83A7AD4FC059A202C8EA86C3696087 /* Pods-ECMaterialDesign_Tests-frameworks.sh */,
+				E313DD52436B7B452F3672995984DB02 /* Pods-ECMaterialDesign_Tests-resources.sh */,
+				791CFE3587A8727D451316D48A5AD2F1 /* Pods-ECMaterialDesign_Tests-umbrella.h */,
+				4CDBEDE161D3E1C531FA4FD9DBCD8FFA /* Pods-ECMaterialDesign_Tests.debug.xcconfig */,
+				3D8918561C792EBAA06EF00F5DC6D6D3 /* Pods-ECMaterialDesign_Tests.release.xcconfig */,
+			);
+			name = "Pods-ECMaterialDesign_Tests";
+			path = "Target Support Files/Pods-ECMaterialDesign_Tests";
+			sourceTree = "<group>";
+		};
+		78C3A5C56D1364A42CF3D630CF423F2E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				92109DB8C56A4D2E99C248556988273D /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				8481ED6F58EFBA6D67ADA76249235990 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				F03A5D0857CCF597A7B4FEEEFB542B90 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8481ED6F58EFBA6D67ADA76249235990 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D68DE0D789E0C5AC5A5391440F7C76ED /* ECMaterialDesign */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		92109DB8C56A4D2E99C248556988273D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7C19FC56EB31A40200C48D100548B2F3 /* ECMaterial.h */,
+				064C127FA76641CC42753A8492EA96F1 /* UIView+Material.h */,
+				704AFCC90D4D6C6BC67F856543C7936D /* UIView+Material.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9D3AE189A18B3DA8ED1DFDC255F89615 /* Pods-ECMaterialDesign_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CDDFD227BAACF417152F8921A27173AE /* Info.plist */,
+				42259F80BF772EEA4976164159F5A7B6 /* Pods-ECMaterialDesign_Example.modulemap */,
+				FA60DF0CB340B18ADD69167E724CE158 /* Pods-ECMaterialDesign_Example-acknowledgements.markdown */,
+				D1214CCAB232590C51984A5F806E420A /* Pods-ECMaterialDesign_Example-acknowledgements.plist */,
+				2D61912EFF149F4B3FD4F3B6A017BB5B /* Pods-ECMaterialDesign_Example-dummy.m */,
+				6403364F157A2C0B2B67B85CE81E5294 /* Pods-ECMaterialDesign_Example-frameworks.sh */,
+				EB9BA587AC3E0BE7FE383FA4E8692ADB /* Pods-ECMaterialDesign_Example-resources.sh */,
+				6C4E0604FEC69CDA7C102020C126BC5E /* Pods-ECMaterialDesign_Example-umbrella.h */,
+				2D135F2C36437EBE32BF6FFDFD45DE90 /* Pods-ECMaterialDesign_Example.debug.xcconfig */,
+				19442AF619922822E89C8979987D9EF4 /* Pods-ECMaterialDesign_Example.release.xcconfig */,
+			);
+			name = "Pods-ECMaterialDesign_Example";
+			path = "Target Support Files/Pods-ECMaterialDesign_Example";
+			sourceTree = "<group>";
+		};
+		BA2C0583D68FDD85A85A0D7EA04A556D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CADE3643EAB3C0880907662F943A456 /* ECMaterialDesign.modulemap */,
+				CFD74B13E86B4B117D590600BEEDE7B2 /* ECMaterialDesign.xcconfig */,
+				E247D63520337C830D5E127D5F90F3EF /* ECMaterialDesign-Private.xcconfig */,
+				56F19BA2038ADB0DC0EDE639C76CC728 /* ECMaterialDesign-dummy.m */,
+				B70AFF48EEB08DB52251454740AEA5BD /* ECMaterialDesign-prefix.pch */,
+				E73BB3EC21947A769EBBDC0FDF776C95 /* ECMaterialDesign-umbrella.h */,
+				103041FE1F3F273D902977FB2CB22D20 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ECMaterialDesign";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB99EF32C7EC4ACF607E5A9A41C58D0 /* ECMaterialDesign.bundle */,
+				B37C4BD2D4315A5CAF505360AA78A3B7 /* ECMaterialDesign.framework */,
+				50E5845077D1378909812DE25F8CFB6F /* Pods_ECMaterialDesign_Example.framework */,
+				5ABB8EE1EA1A0EE3EE25ED0A574A3E85 /* Pods_ECMaterialDesign_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D68DE0D789E0C5AC5A5391440F7C76ED /* ECMaterialDesign */ = {
+			isa = PBXGroup;
+			children = (
+				78C3A5C56D1364A42CF3D630CF423F2E /* Pod */,
+				BA2C0583D68FDD85A85A0D7EA04A556D /* Support Files */,
+			);
+			name = ECMaterialDesign;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F03A5D0857CCF597A7B4FEEEFB542B90 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D3AE189A18B3DA8ED1DFDC255F89615 /* Pods-ECMaterialDesign_Example */,
+				5761DACC32E2C753A5782436C9292A9B /* Pods-ECMaterialDesign_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B6B8AD3711A3EC882B882418F62B911 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D1EE08FD7A3C93C00ABE4BB8F9F24D2 /* Pods-ECMaterialDesign_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92BF5AE56E26B963D95E85AD157BA771 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADEB809076C6B5B14E34E7A72E36FAA /* ECMaterial.h in Headers */,
+				4138A6BE011341E4B479DEE85F5AAF8E /* ECMaterialDesign-umbrella.h in Headers */,
+				320FB9304668DAFCFD63423AD87DBB75 /* UIView+Material.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D90676A03DB6EB98DD6A01B612BEFD9E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E7B669AC5709D3E0B75BC433F903FF /* Pods-ECMaterialDesign_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E76B620D13E7BF0CCAED5852799297D /* ECMaterialDesign-ECMaterialDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7AE811FA7924EC493A8732A79A8E58 /* Build configuration list for PBXNativeTarget "ECMaterialDesign-ECMaterialDesign" */;
+			buildPhases = (
+				AFC04C05CBC66733E40B957A5F9391D2 /* Sources */,
+				CC40F5BEA7B2914359039B2AAA99D677 /* Frameworks */,
+				2897E7B9E2244B2B4353E5CBA4080232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ECMaterialDesign-ECMaterialDesign";
+			productName = "ECMaterialDesign-ECMaterialDesign";
+			productReference = 3CB99EF32C7EC4ACF607E5A9A41C58D0 /* ECMaterialDesign.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		2EEEED4FCF951A5AA119FE8CE4CD28DF /* Pods-ECMaterialDesign_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C8E00A1D467B8B599512E0A758FB7BE /* Build configuration list for PBXNativeTarget "Pods-ECMaterialDesign_Example" */;
+			buildPhases = (
+				1314B871741C8DC27136EF2BD4A1CE2D /* Sources */,
+				0AA9F2668D4F271C74B26E024D038779 /* Frameworks */,
+				D90676A03DB6EB98DD6A01B612BEFD9E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28ABE69567906A8328D4EAB5E76525B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-ECMaterialDesign_Example";
+			productName = "Pods-ECMaterialDesign_Example";
+			productReference = 50E5845077D1378909812DE25F8CFB6F /* Pods_ECMaterialDesign_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80326DAC2EDD80E39F94436C11FDF4F8 /* ECMaterialDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBB18F93F0556A9019BFCAA44761AB76 /* Build configuration list for PBXNativeTarget "ECMaterialDesign" */;
+			buildPhases = (
+				F5D470B95CA5AC88F6819D52B5C42AC8 /* Sources */,
+				5FAFD7481AA781A56B005E8667F7B941 /* Frameworks */,
+				304E81E91C6350BCDEF6F95571F77D36 /* Resources */,
+				92BF5AE56E26B963D95E85AD157BA771 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571C14B2AFE4E6B59DB6DC0B25314760 /* PBXTargetDependency */,
+			);
+			name = ECMaterialDesign;
+			productName = ECMaterialDesign;
+			productReference = B37C4BD2D4315A5CAF505360AA78A3B7 /* ECMaterialDesign.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		880CF74ADD243D654CCF0DDCF4720EC5 /* Pods-ECMaterialDesign_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E67CCA37202920533FE7D2580621E8 /* Build configuration list for PBXNativeTarget "Pods-ECMaterialDesign_Tests" */;
+			buildPhases = (
+				2DB264E17FF51CE9C469440FC41CEA94 /* Sources */,
+				AAB54AAD143A9CAB2D1EB250EE00C632 /* Frameworks */,
+				2B6B8AD3711A3EC882B882418F62B911 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A67EBECC7218A3EBFB46209EBC25E87 /* PBXTargetDependency */,
+			);
+			name = "Pods-ECMaterialDesign_Tests";
+			productName = "Pods-ECMaterialDesign_Tests";
+			productReference = 5ABB8EE1EA1A0EE3EE25ED0A574A3E85 /* Pods_ECMaterialDesign_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80326DAC2EDD80E39F94436C11FDF4F8 /* ECMaterialDesign */,
+				1E76B620D13E7BF0CCAED5852799297D /* ECMaterialDesign-ECMaterialDesign */,
+				2EEEED4FCF951A5AA119FE8CE4CD28DF /* Pods-ECMaterialDesign_Example */,
+				880CF74ADD243D654CCF0DDCF4720EC5 /* Pods-ECMaterialDesign_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2897E7B9E2244B2B4353E5CBA4080232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		304E81E91C6350BCDEF6F95571F77D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655B0C83EB81C9E4AC2E5F4983E1C3AD /* ECMaterialDesign.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1314B871741C8DC27136EF2BD4A1CE2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA509E673F8843EC2FD2ADC1AAFAE90B /* Pods-ECMaterialDesign_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB264E17FF51CE9C469440FC41CEA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4543C907C3A9227C318A083CC2896B93 /* Pods-ECMaterialDesign_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFC04C05CBC66733E40B957A5F9391D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D470B95CA5AC88F6819D52B5C42AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575C61B657C3B1CDD51A53F1E3D194DC /* ECMaterialDesign-dummy.m in Sources */,
+				D4D83FAE9E353316952E0A3E34CADCDC /* UIView+Material.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28ABE69567906A8328D4EAB5E76525B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECMaterialDesign;
+			target = 80326DAC2EDD80E39F94436C11FDF4F8 /* ECMaterialDesign */;
+			targetProxy = A0D7403046631DCA1F0EDBF6966A8560 /* PBXContainerItemProxy */;
+		};
+		571C14B2AFE4E6B59DB6DC0B25314760 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ECMaterialDesign-ECMaterialDesign";
+			target = 1E76B620D13E7BF0CCAED5852799297D /* ECMaterialDesign-ECMaterialDesign */;
+			targetProxy = 32AC1ADB5E7B0E62D8B6DBD5C5EB45D1 /* PBXContainerItemProxy */;
+		};
+		6A67EBECC7218A3EBFB46209EBC25E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ECMaterialDesign;
+			target = 80326DAC2EDD80E39F94436C11FDF4F8 /* ECMaterialDesign */;
+			targetProxy = 11D15AC5C7EA05B3C15D939C4DCEC875 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		030873F1AAC929233CC01C3638EB3031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E247D63520337C830D5E127D5F90F3EF /* ECMaterialDesign-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECMaterialDesign;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		324CBA18EC296D9464AA8B347DDC1FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D8918561C792EBAA06EF00F5DC6D6D3 /* Pods-ECMaterialDesign_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECMaterialDesign_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ECMaterialDesign_Tests/Pods-ECMaterialDesign_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECMaterialDesign_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99034E861AA4374112ED23413E02CA54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19442AF619922822E89C8979987D9EF4 /* Pods-ECMaterialDesign_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECMaterialDesign_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ECMaterialDesign_Example/Pods-ECMaterialDesign_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECMaterialDesign_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF7800D1A73EEC486D0A8EFDBFBD2EEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E247D63520337C830D5E127D5F90F3EF /* ECMaterialDesign-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECMaterialDesign/ECMaterialDesign-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECMaterialDesign/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECMaterialDesign/ECMaterialDesign.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ECMaterialDesign;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B146BE8DCA96C5B1CB5FF9D2E7B7A0C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E247D63520337C830D5E127D5F90F3EF /* ECMaterialDesign-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = ECMaterialDesign;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B9AE0646E5909C926976F6A306C5C151 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D135F2C36437EBE32BF6FFDFD45DE90 /* Pods-ECMaterialDesign_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECMaterialDesign_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ECMaterialDesign_Example/Pods-ECMaterialDesign_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECMaterialDesign_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA26C82E112074614C2A31FDEA285234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E247D63520337C830D5E127D5F90F3EF /* ECMaterialDesign-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ECMaterialDesign/ECMaterialDesign-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ECMaterialDesign/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ECMaterialDesign/ECMaterialDesign.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ECMaterialDesign;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF27FA8C1A4D579F1BA327A2F06C938C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CDBEDE161D3E1C531FA4FD9DBCD8FFA /* Pods-ECMaterialDesign_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ECMaterialDesign_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-ECMaterialDesign_Tests/Pods-ECMaterialDesign_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ECMaterialDesign_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A7AE811FA7924EC493A8732A79A8E58 /* Build configuration list for PBXNativeTarget "ECMaterialDesign-ECMaterialDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B146BE8DCA96C5B1CB5FF9D2E7B7A0C3 /* Debug */,
+				030873F1AAC929233CC01C3638EB3031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C8E00A1D467B8B599512E0A758FB7BE /* Build configuration list for PBXNativeTarget "Pods-ECMaterialDesign_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9AE0646E5909C926976F6A306C5C151 /* Debug */,
+				99034E861AA4374112ED23413E02CA54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBB18F93F0556A9019BFCAA44761AB76 /* Build configuration list for PBXNativeTarget "ECMaterialDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA26C82E112074614C2A31FDEA285234 /* Debug */,
+				AF7800D1A73EEC486D0A8EFDBFBD2EEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5E67CCA37202920533FE7D2580621E8 /* Build configuration list for PBXNativeTarget "Pods-ECMaterialDesign_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF27FA8C1A4D579F1BA327A2F06C938C /* Debug */,
+				324CBA18EC296D9464AA8B347DDC1FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,14 @@
+PODS:
+  - ECMaterialDesign (0.1.0)
+
+DEPENDENCIES:
+  - ECMaterialDesign (from `../`)
+
+EXTERNAL SOURCES:
+  ECMaterialDesign:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ECMaterialDesign: e8beaa3f3a8f77e6dfb1baa7f509e9bad7a81d11
+
+COCOAPODS: 0.38.2
